@@ -99,13 +99,10 @@
 		38C28E4227B576C700B2AB92 /* GBShop */ = {
 			isa = PBXGroup;
 			children = (
-				38C28E4327B576C700B2AB92 /* AppDelegate.swift */,
-				38C28E4527B576C700B2AB92 /* SceneDelegate.swift */,
-				38C28E4727B576C700B2AB92 /* ViewController.swift */,
-				38C28E4927B576C700B2AB92 /* Main.storyboard */,
-				38C28E4C27B576C900B2AB92 /* Assets.xcassets */,
-				38C28E4E27B576C900B2AB92 /* LaunchScreen.storyboard */,
-				38C28E5127B576C900B2AB92 /* Info.plist */,
+				38C28E7327B580D200B2AB92 /* App */,
+				38C28E7427B580D800B2AB92 /* Core */,
+				38C28E7527B580E400B2AB92 /* Resources */,
+				38C28E7627B580EA00B2AB92 /* Environments */,
 			);
 			path = GBShop;
 			sourceTree = "<group>";
@@ -125,6 +122,73 @@
 				38C28E6627B576C900B2AB92 /* GBShopUITestsLaunchTests.swift */,
 			);
 			path = GBShopUITests;
+			sourceTree = "<group>";
+		};
+		38C28E7327B580D200B2AB92 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				38C28E4327B576C700B2AB92 /* AppDelegate.swift */,
+				38C28E4527B576C700B2AB92 /* SceneDelegate.swift */,
+				38C28E7A27B5810200B2AB92 /* BusinessLogic */,
+				38C28E7927B580FD00B2AB92 /* Entity */,
+				38C28E7827B580F700B2AB92 /* Assembly */,
+				38C28E7727B580F100B2AB92 /* Flows */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		38C28E7427B580D800B2AB92 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		38C28E7527B580E400B2AB92 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				38C28E4C27B576C900B2AB92 /* Assets.xcassets */,
+				38C28E4E27B576C900B2AB92 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		38C28E7627B580EA00B2AB92 /* Environments */ = {
+			isa = PBXGroup;
+			children = (
+				38C28E5127B576C900B2AB92 /* Info.plist */,
+			);
+			path = Environments;
+			sourceTree = "<group>";
+		};
+		38C28E7727B580F100B2AB92 /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+				38C28E4727B576C700B2AB92 /* ViewController.swift */,
+				38C28E4927B576C700B2AB92 /* Main.storyboard */,
+			);
+			path = Flows;
+			sourceTree = "<group>";
+		};
+		38C28E7827B580F700B2AB92 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		38C28E7927B580FD00B2AB92 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		38C28E7A27B5810200B2AB92 /* BusinessLogic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BusinessLogic;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
